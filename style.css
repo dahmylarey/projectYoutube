@@ -52,6 +52,10 @@ aside{
     object-fit: cover;
     border-radius: 100%;
 }
+.userInfo span{
+    color: #fff;
+    text-transform: capitalize;
+}
 .info h3{
     opacity: .6;
     text-transform: capitalize;
@@ -95,8 +99,8 @@ nav{
     border-bottom: 2px solid #08081a;
     width: 100%;
     top: 0;
-    left: 300px;
-    max-width: 900px;
+    left: 405px;
+    max-width: 1100px;
     margin: 3.5rem auto;
     padding: .4rem 0;
 }
