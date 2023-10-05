@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    border: 2px solid;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#wrapper h1{
+    /* border: 2px solid; */
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px;
+}
+
+
+aside{
+    background-color: #0808d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_Items{
+    display: flex;
+    flex-direction: column;
+
+}
+.nav_Items a{
+    opacity: .6;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1rem .4rem;
+}
+.nav_Items a:hover{
+    background-color: #08081a;
+    opacity: 1;
+}
+
+.userInfo{
+    display: flex;
+    gap: 5px;
+}
+.userInfo img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.info h3{
+    opacity: .6;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #fff;
+    
+}
+.info span{
+    opacity: .2;
+    font-size: 13px;
+}
+
+/* sytling fot main */
+main{
+    padding: 10rem;
+    overflow-y: scroll;
+}
+
+form{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-bottom: 2px solid #08081a;
+    width: 300px;
+    margin-right: 30px;
+}
+
+input[type="search"]{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: .3rem;
+}
+nav{
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-top: 2px solid #08081a;
+    border-bottom: 2px solid #08081a;
+    width: 100%;
+    top: 0;
+    left: 300px;
+    max-width: 900px;
+    margin: 3.5rem auto;
+    padding: .4rem 0;
+}
+
+nav a{
+    color: #08081a;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 4.1rem;
+    font-size: 1rem;
+}
+
+.display{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
+
+.card h4{
+    font-size: 10px;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
